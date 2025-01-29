@@ -80,5 +80,6 @@ public class Main {
         System.out.println("Денис теперь получает " + zpMonNew + " рублей в месяц. Годовой доход вырос на " + zpYearHei + " рублей");
         zpMonNew = zpMonKrist * (1 + rais); //Вычисление месячной зарплаты с учётом прибавки
         zpYearHei = zpMonKrist * rais * 12; //Вычисление годовой прибавки
+        System.out.println("Кристина теперь получает " + zpMonNew + " рублей в месяц. Годовой доход вырос на " + zpYearHei + " рублей");
     }
 }
